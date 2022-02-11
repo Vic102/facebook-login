@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.line {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*Main*/
+
+.mainPage {
+  display: flex;
+
+}
+main {
+  display: flex;
+  justify-content:space-around;
+  background-color: #f0f2f5;
+  height: 720px;
+  padding: 0 40px;
+  padding-top: 135px;
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.intro {
+  display: flex;
+  flex-flow: column;
+  align-items:flex-start;
+  font-size: 25px;
+  width: 58%;
+  padding-left: 170px;
+  padding-top: 40px;
+  padding-right: 50px;
+  font-size: 28px;
+}
+.intro img {
+  width: 300px;
+  margin-left: -28px;
+}
+
+.intro p {
+  margin-top: -8px;
+}
+
+
+.rightSide {
+  width: 42%;
+}
+
+.iniSesion {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 350px;
+  width: 395px;
+  padding: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+input:focus   {
+  outline: 1px solid #1877f2;
+  caret-color: #1877f2;
+}
+
+input::placeholder {
+  color: #9898a0;
+}
+
+.createNewAccount, .enterOldAccount {
+  color: white;
+  padding: 14px 16px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor:pointer;
+  font-weight: bold;
+}
+
+.enterOldAccount {
+  background-color: #1877f2;
+  width: 100%;
+  font-size: 20px;
+}
+
+.createNewAccount {
+  background-color: #42b72a;
+  width: 52%;
+  font-size: 17px;
+}
+
+.forgottenPassword {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding-top:10px;
+}
+.forgottenPassword a {
+  color: #217ef3;
+  text-decoration: none;
+}
+
+.forgottenPassword a:hover {
+  text-decoration: underline;
+}
+.oldAccount {
+  display: flex;
+  flex-direction: column;
+}
+
+.newAccount {
+  display: flex;
+  justify-content: center;
+}
+
+.linkFamous {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.famousPage {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.enterOldAccount:hover {
+  background-color: #185aff;
+}
+
+.createNewAccount:hover {
+  background-color: #009b00;
+}
+
+.plus {color: grey;}
+
+/*Footer*/
+
+footer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 270px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: #8a8d91
+}
+
+ul li {
+  color: #737373;
+  padding-right: 10px;
+}
+
+.forFlex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.languages {
+  padding-top: 30px;
+  padding-bottom: 8px;
+}
+
+.childFooter {
+  padding-top: 8px;
+}
+
+.line2 {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.separateText li {
+  padding-right: 20px;
+  line-height: 1.6;
+}
+
+.meta {
+  font-size: 11px;
+  margin-top: 20px;
+    margin-bottom: 20px;
+    color: #737373;
+}
